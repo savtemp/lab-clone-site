@@ -1,0 +1,25 @@
+.icon-image{
+    height: 50px;
+    width: 50px;
+}
+
+.hero-image{
+    background-image: url("https://media.istockphoto.com/photos/maple-syrup-with-fall-foliage-picture-id496585407?k=20&m=496585407&s=612x612&w=0&h=5Ajz8YBFTbUWd2eQxCOUzbRN9rMVoZo2yNVMfeYl1Ko=");
+    background-size: cover;
+    background-position: bottom;
+    padding: 13em;
+}
+
+.image-box{
+    height: 200px;
+    width: 200px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
