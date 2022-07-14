@@ -20,7 +20,7 @@
     width: 200px;
 }
 
-/* NOTE whats the difference between position relative and positive absolute */
+/* NOTE whats the difference between position relative and positive absolute - relative/absolute to what? */
 /* NOTE is there a better way to do this besides creating the CSS class and inserting it into each tag in HTML? */
 .container{
     position: relative;
