@@ -3,8 +3,13 @@
     width: 50px;
 }
 
+.text{
+    font-size: x-small;
+    font-weight: 800;
+}
+
 .hero-image{
-    background-image: url("https://media.istockphoto.com/photos/maple-syrup-with-fall-foliage-picture-id496585407?k=20&m=496585407&s=612x612&w=0&h=5Ajz8YBFTbUWd2eQxCOUzbRN9rMVoZo2yNVMfeYl1Ko=");
+    background-image: url("maple-syrup.jpeg");
     background-size: cover;
     background-position: bottom;
     padding: 13em;
@@ -13,6 +18,18 @@
 .image-box{
     height: 200px;
     width: 200px;
+}
+
+/* NOTE whats the difference between position relative and positive absolute */
+/* NOTE is there a better way to do this besides creating the CSS class and inserting it into each tag in HTML? */
+.container{
+    position: relative;
+    text-align: center;
+}
+.centered{
+    position: absolute;
+    left: 45%;
+    top: 45%;
 }
 
 .d-flex{

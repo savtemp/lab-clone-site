@@ -33,7 +33,7 @@
 </head>
 
 
-<body class="debug">
+<body class="">
     <!-- SECTION NAVIGATION -->
     <nav class="container-fluid">
         <section class="row">
@@ -41,14 +41,15 @@
                 <img class="icon-image img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFFF3Swb6qhlut-fCPpxasKg1mkhXoKk2OUg&usqp=CAU" 
                 alt="mountain icon">
             </div>
-            <div class="col-6 d-flex justify-content-evenly align-items-center">
-                <p class="m-0">Work</p> 
+            <div class="col-4 d-flex justify-content-evenly align-items-center text">
+                <p class="m-0 ">Work</p> 
                 <p class="m-0">About</p>
                 <p class="m-0">Expertise</p>
                 <p class="m-0">Blog</p>
                 <p class="m-0">Store</p>
                 <p class="m-0">Contact</p>
             </div>
+            <div class="col-2"></div>
         </section>
     </nav>
 
@@ -56,7 +57,9 @@
     <header class="container-fluid">
         <section class="row text-light">
             <div class="col-12 hero-image text-left">
-                <h1>Crown Maple</h1>
+                <h1 class="mb-0">Crown Maple</h1>
+                <div>Not All Crowns Are Created Equal.</div>
+                <!-- FIXME how to add the dots? -->
             </div>
         </section>
     </header>
@@ -74,19 +77,27 @@
 
     <!-- SECTION ADDITIONAL HYPERLINKS -->
     <main class="container-fluid">
-        <!-- FIXME align items and insert words -->
-        <section class="row justify-content-around bg-secondary p-5">
-            <div class="col-4">
+        <!-- FIXME change the font weight? -->
+        <!-- NOTE is this the best way to add the words to the image? -->
+        <section class="row justify-content-center bg-light p-5">
+            <div class="col-4 container">
                 <img class="image-box img-fluid" src="https://images.unsplash.com/photo-1598857729092-0b11088559af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGluZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" 
                 alt="">
+                <div class="text-light centered">Blog</div>
+                <div class="text">words words</div>
             </div>
-            <div class="col-4">
+            <div class="col-4 container">
                 <img class="image-box img-fluid" src="https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" 
                 alt="">
+                <div class="text-light centered">Office</div>
+                <div class="text">words words</div>
             </div>
-            <div class="col-4">
-                <img class="image-box img-fluid" src="https://images.unsplash.com/photo-1571456653714-a8db063a3e91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8eWVsbG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" 
+            <div class="col-4 container">
+                <img class="image-box img-fluid" 
+                src="https://images.unsplash.com/photo-1571456653714-a8db063a3e91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8eWVsbG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" 
                 alt="">
+                <div class="text-light centered">Expertise</div>
+                <div class="text">words words</div>
             </div>
         </section>
     </main>
@@ -94,18 +105,20 @@
     <!-- SECTION CONTACT FOOTER -->
     <footer class="container-fluid bg-dark text-light">
         <section class="row p-4">
-            <div class="col-5 d-flex justify-content-around align-items-center">
+            <div class="col-4 offset-1 d-flex justify-content-evenly align-items-center text">
                 <a href="">Jobs</a>
                 <a href="">Store</a>
                 <a href="">Twitter</a>
                 <a href="">Facebook</a>
             </div>
-            <div class="col-3">
-                <h6 class="p-2">Phone</h6>
-                <h6 class="p-2">Email</h6>
+            <!-- NOTE why can I not add 'text' to the div class? -->
+            <div class="col-2">
+                <h6 class="p-2 text">612.315.5270</h6>
+                <h6 class="p-2 text">hello@studiompls.com</h6>
             </div>
-            <div class="col-3">
-                <h6 class="p-2">Address</h6>
+            <div class="col-2">
+                <h6 class="p-2 text">3258 Minnehaha Ave</h6>
+                <h6 class="p-2 text p-0">Minneapolis, MN 55408</h6>
             </div>
         </section>
     </footer>
